@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    @friends = ["Jerry", "Barry", "Mary", "Gary", "Karrie", "Clair E."]
+    @friends = ["Jerry", "Barry", "Larry", "Mary", "Gary", "Karrie", "Clair E."]
     erb :friends
 
   end
